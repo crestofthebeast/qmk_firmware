@@ -1,0 +1,22 @@
+//  name     result    chord keys
+// Missing alpha
+COMB(Z,      KC_Z,     LCTL_T(KC_G), KC_D)
+COMB(Q,      KC_Q,     KC_F, KC_P)
+
+// symbols
+COMB(GRAVE,  KC_GRAVE,  KC_M, RCTL_T(KC_COMMA))
+COMB(EQUAL,  KC_EQUAL,  KC_C, LCTL_T(KC_G))
+COMB(MINS, KC_MINS, RCTL_T(KC_COMMA), KC_DOT)
+
+// MISC
+COMB(ESC,           KC_ESC,     KC_F, LGUI_T(KC_H))
+COMB(BSP,    KC_BACKSPACE, KC_W, KC_F)
+COMB(CAPSWORD, CW_TOGG, RGUI_T(KC_N), KC_U)
+
+// SFT
+COMB(LSFT, OSM_SHFT, LALT_T(KC_S), LSFT_T(KC_T))
+COMB(RSFT, OSM_SHFT, RSFT_T(KC_A), RALT_T(KC_I))
+
+// QMK
+COMB(BOOT,  QK_BOOT,  KC_COMMA, KC_X, KC_QUOTE, KC_J)
+COMB(RESET, EE_CLR,   KC_F, KC_M, KC_P, KC_B)
